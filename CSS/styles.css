@@ -291,23 +291,21 @@ line-height: 30px; /* 166.667% */
     font-weight: 600;
 }
 .leto {
-    color: #FFF;
-font-size: 18px;
-font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
 }
-.selto {
-background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-}
-.category {max-width: 1440px;
+
+.category {
+    max-width: 1440px;
     margin: 120px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
 }
 .button {
-    background: #FFF;
-    max-width: 1440;
-    margin: 0px auto;
+    background: #fcf8f8;
+    margin:0px auto;
     min-width: 243px;
     height: 80px;
     border-radius: 50px;
