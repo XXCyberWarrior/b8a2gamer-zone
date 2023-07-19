@@ -7,11 +7,96 @@
     .nav-item-container {
         flex-direction: column;
     }
-    .nav-item-container .login-btn {
-        margin-top: 62px;
-    }
     .banner-container {
         flex-direction: column;
     }
+    .banner-info {
+        margin-top: 50px;
+        width: 100%;
+        padding: 0;
+    }
+    .banner-pic {
+        width: 100%;
+        height: 100%;
+
+    }
+    .we-are-gamer {
+        width: 100%;
+    }
+    .banner-downimg {
+        width: 100%;
+        flex-direction: column;
+    }
+    #kasem {
+        width: 100%;
+    }
+    .card-img {
+        margin-top: 50%;
+        flex-direction: column;
+        height: 100%;
+    }
+    .play-ins {
+        width: 300px;
+        flex-direction: column;
+    }
+    .career-text {
+        flex-direction: column;
+    }
+    .careear-img {
+        height: 100%;
+        width: 100%;
+    }
+    .ins-title {
+        display: none;
+    }
+    .careers {
+        flex-direction: column;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .career-title {
+        width: 100%;
+        padding: 0px;
+    }
+    .ins-dis {
+        width: auto;
+        position: relative;
+        right: 200px;
+    }
+    .dt2 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 15px;
+    }
+    #sahin {
+        display: none;
+    }
+    .ins-pics{
+        display: none;
+    }
+    .ins-pics2{ 
+        display: none;
+    }
+    .play-ins2{
+        width: 0%;
+        flex-direction: column;
+    }
+    .ft {
+    }
+    .footer-container {
+        padding: 0;
+        flex-direction: column;
+    }
+    .ft-support {
+        flex-direction: column;
+    }
+    .ft-about {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    
 }
     
