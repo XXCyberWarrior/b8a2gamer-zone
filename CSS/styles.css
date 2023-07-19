@@ -203,6 +203,120 @@ font-weight: 500;
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
     margin-top: 24px;
 }
+.play-ins {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    margin-top: 104px;
+    margin-left: 240px;
+    justify-content: flex-end;
+}
+.pit {
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+}
+.play-ins-text {
+    margin-top: 330;
+    text-align: right;
+}
+.play-ins span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.lolo {
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.angel{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.ta {
+    position: relative;
+    z-index: 3;
+    top: -300px;
+    right: -660px;
+}
+.career-bap {
+    background-color: #FF42A5
+}
+.careers {
+    background-image: url(../assets/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 820px;
+    padding-left: 240px;
+    
+}
+.careers-item p{
+    color: white;
+}
+#btn-primary {
+    background-color: white;
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+
+}
+.ct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.career-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+.ct p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.leto {
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+}
+.selto {
+background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.category {max-width: 1440px;
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+.button {
+    background: #FFF;
+    max-width: 1440;
+    margin: 0px auto;
+    min-width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+}
+/* .category .button {
+    color: white;
+} */
