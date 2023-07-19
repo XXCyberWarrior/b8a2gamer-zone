@@ -98,6 +98,9 @@
     
 }
 @media(min-width: 576px) and (max-width: 992px) {
+    body {
+        overflow: auto;
+    }
     .nav-container{
         flex-direction: column;
     }
@@ -134,11 +137,25 @@
     .kofil {
         display: none;
     }
-    .ins-pics, .ins-pic2 {
-        width: 50%;
+    
+    .ins-pics{
+        border: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        right: 50px;
+    }
+    .rafi {
+        display: none;
+    }
+    .rouf {
+        max-width: 100%;
     }
     .banner-info {
         flex-direction: column;
+    }
+    .careear-img {
+        display: none;
     }
     .banner-container {
         flex-direction: column-reverse;
