@@ -48,6 +48,13 @@
     .ins-title {
         display: none;
     }
+    .card-img {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+    }
     .careers {
         flex-direction: column;
         padding: 0px;
@@ -80,8 +87,6 @@
     .play-ins2{
         width: 0%;
         flex-direction: column;
-    }
-    .ft {
     }
     .footer-container {
         padding: 0;
