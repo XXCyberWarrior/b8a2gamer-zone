@@ -61,7 +61,8 @@
     .ins-dis {
         width: auto;
         position: relative;
-        right: 200px;
+        right: 100px;
+        top: 50px;
     }
     .dt2 {
         width: 100%;
@@ -70,13 +71,11 @@
         left: 15px;
     }
     #sahin {
-        display: none;
+        visibility: hidden;
     }
-    .ins-pics{
-        display: none;
+    .ins-pics{display: none;
     }
-    .ins-pics2{ 
-        display: none;
+    .ins-pics2{display: none;
     }
     .play-ins2{
         width: 0%;
@@ -97,5 +96,56 @@
         flex-direction: column;
     }
     
+}
+@media(min-width: 576px) and (max-width: 992px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .banner-downimg {
+        flex-direction: column;
+    }
+    .banner-info {
+        flex-direction: column;
+    }
+    .online-game {
+        flex-direction: column;
+    }
+    .card-img {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ins-title, .ins-dis{
+        visibility: hidden;
+    }
+    .play-ins {
+        flex-direction: column;
+    }
+    .careers {
+        flex-direction: column;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .ins-dis2 {
+        display: none;
+    }
+    .kofil {
+        display: none;
+    }
+    .ins-pics, .ins-pic2 {
+        width: 50%;
+    }
+    .banner-info {
+        flex-direction: column;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
     
