@@ -49,6 +49,7 @@ nav {
     text-decoration: none;
 }
 .login-btn {
+    border-radius: 8px;
     padding: 18px;
     background-color: rgba(11, 2, 35, 0.10);
 }
@@ -106,7 +107,7 @@ font-weight: 500;
 .btn-gr {
     background-color: #4EC5F7;
 }
-.banner-pic {
+.banner-container img {
     width: 50%;
     padding-left: 68px;
     padding-right: 240px;
@@ -167,5 +168,41 @@ font-weight: 500;
     margin-bottom: 96px;
 }
 .online-games {
-    
+ text-align: center;
+}
+.card-title {
+    margin: 120px 0px 0px;
+    color: #0B0223;
+    /* text-align: right; */
+    font-size: 48px;
+    font-weight: 700;
+}
+.fv {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card-img {
+    max-width: 1440px;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin: 0 auto;
+    display: flex;
+    width: 342px;
+    height: 400px;
+    margin-top: 48px;
+}
+.card-img figcaption {
+    width: 342px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    margin-top: 24px;
 }
