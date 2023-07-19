@@ -1,5 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@media screen and (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .nav-item-container {
+        flex-direction: column;
+    }
+    .nav-item-container .login-btn {
+        margin-top: 62px;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
 }
+    
