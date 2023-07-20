@@ -80,7 +80,7 @@
         position: relative;
         left: 15px;
     }
-    #sahin {
+    #shahin {
         visibility: hidden;
     }
     .ins-pics{display: none;
@@ -171,15 +171,34 @@
     }
     .selto {
         position: relative;
-        top: 400px;
+        top: 450px;
     }
     .ft {
         position: relative;
-        top: 300px;
+        top: 350px;
     }
     .remu {
         flex-direction: column;
         width: 100%;
     }
+    .rafi {
+        width: 500px;
+    }
+    #mouse {
+        width: 676px;
+    }
+    .rouf {
+        position: relative;
+        right: 200px;
+    }
+    #shahin {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 100px;
+        background-color: #ff42a5;
+    }
+
 }
     
