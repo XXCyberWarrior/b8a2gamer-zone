@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    * {
+        padding: 0;
+    }
     .nav-container {
         flex-direction: column;
         width: 100%;
@@ -18,6 +21,7 @@
         padding: 0;
     }
     .banner-pic {
+        padding: 0;
         width: 100%;
         height: 100%;
 
@@ -50,14 +54,9 @@
     .ins-title {
         display: none;
     }
-    .card-img {
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
+    .wrapper{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
     }
     .careers {
         flex-direction: column;
@@ -118,17 +117,18 @@
     .banner-downimg {
         flex-direction: column;
     }
+    .banner-pic {
+        margin-left: 200px;
+        width: 60%;
+    }
     .banner-info {
         flex-direction: column;
     }
     .online-game {
         flex-direction: column;
     }
-    .card-img {
-        flex-direction: column;
+    .wrapper{
         flex-wrap: wrap;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
     }
     .ins-title, .ins-dis{
         visibility: hidden;
@@ -136,28 +136,19 @@
     .play-ins {
         flex-direction: column;
     }
+    #kasem {
+        width: 100%;
+    }
     .careers {
         flex-direction: column;
         padding: 0px;
-        height: 100%;
-        width: 100%;
     }
-    .ins-dis2 {
-        display: none;
-    }
-    .kofil {
-        display: none;
-    }
-    
     .ins-pics{
         border: none;
         padding: 0;
         margin: 0;
         position: relative;
-        right: 50px;
-    }
-    .rafi {
-        display: none;
+        right: 100px;
     }
     .rouf {
         max-width: 100%;
@@ -165,15 +156,30 @@
     .banner-info {
         flex-direction: column;
     }
-    .careear-img {
-        display: none;
-    }
     .banner-container {
         flex-direction: column-reverse;
         width: 100%;
         height: 100%;
         justify-content: center;
         align-items: center;
+    }
+    .ins-dis2 {
+        display: none;
+    }
+    .category {
+        flex-wrap: wrap;
+    }
+    .selto {
+        position: relative;
+        top: 400px;
+    }
+    .ft {
+        position: relative;
+        top: 300px;
+    }
+    .remu {
+        flex-direction: column;
+        width: 100%;
     }
 }
     
